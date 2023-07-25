@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(25, 25, 25);
+}
+.menu{
+    background-color: black;
+    min-width: 100%;
+    height: auto;
+    color:white;
+    /* padding: 10px; */
+}
+
+.menu h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.menu h1 a{
+    text-decoration: none;
+    color:white;
+}
+
+.menudivido{
+    display: inline-block;
+    width: 46%;
+    padding: 10px;
+}
+
+.menu ul{
+text-align: end;
+}
+
+.menudivido ul li{
+    display: inline-block;
+}
+
+.menudivido ul li a{
+    display:inline-block;
+    list-style-type: none;
+    list-style: none;
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.menudivido ul li a:hover{
+    background-color: greenyellow;
+    color:black;
+    border-radius: 7px;
+}
+
+.container h1{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.planos{
+margin: 6%;
+background-color: rgb(25, 25, 25);
+word-wrap: break-word;
+
+
+}
+
+.plan{
+    width: 30%;
+    background-color: rgba(45,45,45);
+    display: inline-block;
+    margin:1%;
+    height: 100%;
+}
+
+.plan h1{
+    text-decoration: underline;
+    font-stretch: expanded;
+    color: greenyellow;
+    display: block;
+    text-align: left;
+    margin: 4%;
+    font-size: 25px;
+}
+
+.plan h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.mes{
+    display: inline-block;
+    font-size: 10px;
+}
+
+.plan ul{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    
+}
+.plan ul li{
+    list-style-type: disc;
+    color:greenyellow;
+    margin-left: 40px;
+    
+    
+}
+.plan ul li a{
+    list-style-type: disc;
+    color:white;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    align-content: center;
+}
+form button{
+    padding: 10px;
+    background-color: greenyellow;
+    width: 90%;
+    margin:5%;
+    font-size: 16px;
+    
+
+
+}
+
+.LetraBranca{
+color: white;
+}
